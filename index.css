@@ -38,8 +38,8 @@ body {
   top: 50%;
 }
 #btn1 {
-  left: 51.5%;
-  top: 50%;
+  left: 56.5%;
+  top: 44%;
 }
 #btn2 {
   left: 43%;
@@ -47,15 +47,15 @@ body {
 }
 #btn3 {
   left: 43%;
-  top: 50%;
+  top: 51%;
 }
 #btn4 {
   left: 43%;
-  top: 50%;
+  top: 37%;
 }
 #btn5 {
   left: 72.5%;
-  top: 60%;
+  top: 42%;
 }
 #btn6 {
   left: 43%;
@@ -63,42 +63,41 @@ body {
 }
 #btn7 {
   left: 67.5%;
-  top: 55%;
+  top: 62%;
 }
 .btn-one:hover {
   font-size: large;
   background-color: rgba(244, 141, 93, 0.3);
 }
 .txt {
-  
   display: inline; 
   position:absolute;
   overflow-wrap: break-word;
   z-index: 3;
 }
 #txt0D {
-  left: 40%;
-  top: 10%;
+  left: 45%;
+  top: 20%;
   width: 700px;
-  height: 400px;
+  height: 200px;
 }
 #txt1D {
-  left: 31%;
+  left: 26%;
   top: 10%;
-  width: 700px;
+  width: 900px;
   height: 400px;
 }
 #txt2D {
   left: 31%;
   top: 10%;
   width: 700px;
-  height: 400px;
+  height: 200px;
 }
 #txt3D {
   left: 61%;
   top: 15%;
   width: 700px;
-  height: 400px;
+  height: 200px;
 }
 #txt4D {
   left: 56%;
@@ -112,22 +111,22 @@ body {
   width: 700px;
   height: 400px;
 }
-@-webkit-keyframes AnimationName {
+@-webkit-keyframes smoked {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-@-moz-keyframes AnimationName {
+@-moz-keyframes smoked {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-@-o-keyframes AnimationName {
+@-o-keyframes smoked {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
 }
-@keyframes AnimationName {
+@keyframes smoked {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}
   100%{background-position:0% 50%}
@@ -135,10 +134,10 @@ body {
 #txt0 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -146,10 +145,10 @@ body {
 #txt1 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -157,10 +156,10 @@ body {
 #txt2 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -168,10 +167,10 @@ body {
 #txt3 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -179,21 +178,21 @@ body {
 #txt4 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
 }
 #txt5 {
   background: linear-gradient(270deg, #2a3834, #6e2929, #3f6e29);
   background-size: 600% 600%;
-  -webkit-animation: AnimationName 15s ease infinite;
-  -moz-animation: AnimationName 15s ease infinite;
-  -o-animation: AnimationName 15s ease infinite;
-  animation: AnimationName 15s ease infinite;
+  -webkit-animation: smoked 15s ease infinite;
+  -moz-animation: smoked 15s ease infinite;
+  -o-animation: smoked 15s ease infinite;
+  animation: smoked 15s ease infinite;
   color: white;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
@@ -227,7 +226,7 @@ body {
 .sl2 {
   position: absolute;
   top: 8%;
-  left: 71%;
+  left: 70%;
   z-index: 1000;
   display: none;
 }
